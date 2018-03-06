@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello JS</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var age;
+		age = 65;
+		var price;
+		price = 20;
+		var payable;
+
+		if (age<19 || age>64) {
+			payable = 0.5 * price;
+		}
+
+		else {
+			if (age>18 && age<41) {
+				payable = price;
+			}
+
+		else {
+			if (age>40 && age<65) {
+				payable = 0.75 * price;
+			}
+		}
+	}
+
+		console.log(payable)
+		
+	</script>
+
+</body>
+</html>
